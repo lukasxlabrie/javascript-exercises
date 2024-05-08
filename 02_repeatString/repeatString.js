@@ -8,13 +8,5 @@ const repeatString = function() {
     let repeatedString = [];
     stringRepeater.push(repeatedString);
 
-    if (i == [-1]){ // if array space is -1 remove , after last iterration
-        alert ("  .")
-        else
-            alert (" ") // if array is any other index just output text with coma
-    };
-
-};
-
 // Do not edit below this line
 module.exports = repeatString;
