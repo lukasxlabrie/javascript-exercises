@@ -6,6 +6,7 @@ const repeatString = function() {
     let stringRepeater = userString * numberUsed; // goal is to create an array which consists of the users string repated by the users number
 
     let repeatedString = [];
+    stringRepeater.push(repeatedString);
 
     if (i == [-1]){ // if array space is -1 remove , after last iterration
         alert ("  .")
