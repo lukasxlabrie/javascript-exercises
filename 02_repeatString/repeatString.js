@@ -3,10 +3,10 @@ const repeatString = function() {
     let userNumber = prompt ("Enter a whole number: "); //ask user for a whole number
     let numberUsed = parseInt (userNumber); //converts user input to int
 
-    let stringRepeater = userString * numberUsed; // goal is to create an array which consists of the users string repated by the users number
+    let stringRepeater = userString * numberUsed; // creates 3 strings
 
-    let repeatedString = [];
-    stringRepeater.push(repeatedString);
+    let repeatedString = []; // empty array
+    stringRepeater.push(repeatedString); //take output and adds to array
 }
 
 // Do not edit below this line
