@@ -1,6 +1,6 @@
 const repeatString = function() {
     let inoputString = prompt ("Enter a noun: "); //ask user for a noun
-    let inputrNumber = prompt ("Enter a whole number: "); //ask user for a whole number
+    let inputNumber = prompt ("Enter a whole number: "); //ask user for a whole number
     let userNumber = parseInt (inputNumber); //converts user input to int
 
     let stringRepeater = inputString.repeat(userNumber); // repeats string by the number entered
