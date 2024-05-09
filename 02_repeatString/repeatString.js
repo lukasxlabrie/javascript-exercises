@@ -7,6 +7,9 @@ const repeatString = function() {
 
     let repeatedString = []; // empty array
     stringRepeater.push(repeatedString); //take output and adds to array
+
+    for (let i = 0; i > Array.length; i++);
+    
 }
 
 // Do not edit below this line
