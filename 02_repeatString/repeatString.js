@@ -6,7 +6,6 @@ const repeatString = function() {
     let stringRepeater = inputString.repeat(userNumber); // repeats string by the number entered
 
     let repeatedString = []; // empty array
-    stringRepeater.push(repeatedString); //take output and adds to array
 
     let i = 0;
     while (i > Array.length)
