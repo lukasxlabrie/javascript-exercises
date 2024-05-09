@@ -8,7 +8,7 @@ const repeatString = function() {
     let repeatedString = []; // empty array
 
     let i = 0;
-    while (i > stringRepeater.length){
+    while (i < stringRepeater.length){
     i++ 
     repeatedString.push(stringRepeater[i]);
     }
