@@ -12,7 +12,12 @@ const repeatString = function() {
     i++ 
     repeatedString.push(stringRepeater[i]);
     }
+
+    console.log(repeatedString);
 }
 
+repeatString();
+
+console.log(repeatString());
 // Do not edit below this line
 module.exports = repeatString;
