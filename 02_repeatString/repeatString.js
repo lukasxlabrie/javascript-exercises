@@ -12,10 +12,6 @@ const repeatString = function() {
     i++ 
     repeatedString.push(stringRepeater[i]);
     }
-
-
-    
-
 }
 
 // Do not edit below this line
