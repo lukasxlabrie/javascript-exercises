@@ -4,7 +4,10 @@ let inputNumber = prompt ("Enter a whole number: "); //ask user for a whole numb
 
 
 const repeatString = function(inputString, inputNumber) { //tells us whats needed for function
-    let userNumber = parseInt (inputNumber); //converts user input to int
+    let userNumber = parseInt (inputNumber);
+    if (isNaN(userNumber) || userNumber < 0) {
+        return 'ERROR'; // Return error if the number is invalid
+    } //converts user input to int
 
     let stringRepeater = inputString.repeat(userNumber); // repeats string by the number entered
 
