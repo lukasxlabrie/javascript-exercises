@@ -1,29 +1,13 @@
-
-let inputString = prompt ("Enter a word: "); //ask user for a word
-let inputNumber = prompt ("Enter a whole number: "); //ask user for a whole number
-
-
-const repeatString = function(inputString, inputNumber) { //tells us whats needed for function
-    let userNumber = parseInt (inputNumber);
+function repeatString(inputString, inputNumber) {
+    let userNumber = parseInt(inputNumber); // Converts user input to an integer
     if (isNaN(userNumber) || userNumber < 0) {
-        return 'ERROR'; // Return error if the number is invalid
-    } //converts user input to int
-
-    let stringRepeater = inputString.repeat(userNumber); // repeats string by the number entered
-
-    let repeatedString = []; // empty array
-
-    let i = 0;
-    while (i < stringRepeater.length){
-    i++ 
-    repeatedString.push(stringRepeater[i]);
+        return 'ERROR'; // Return 'ERROR' if the number is invalid
     }
 
-    console.log(repeatedString);
+    let stringRepeater = inputString.repeat(userNumber); // Repeats the string the specified number of times
+
+    return stringRepeater; // Return the repeated string directly
 }
 
-repeatString();
+module.exports = repeatString; // Exports the function for testing
 
-console.log(repeatString());
-// Do not edit below this line
-module.exports = repeatString;
