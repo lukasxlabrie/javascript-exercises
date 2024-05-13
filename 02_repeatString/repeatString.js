@@ -1,5 +1,5 @@
 const repeatString = function() {
-    let inputString = prompt ("Enter a noun: "); //ask user for a noun
+    let inputString = prompt ("Enter a word: "); //ask user for a word
     let inputNumber = prompt ("Enter a whole number: "); //ask user for a whole number
     let userNumber = parseInt (inputNumber); //converts user input to int
 
