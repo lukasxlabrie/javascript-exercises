@@ -12,7 +12,9 @@ const reverseString = function(word)  { //states function needs 1 arguement in t
     }
 
     let wordReverse = wordReverseStorage.join (" "); // combines elementd in array and removes ,
+    console.log (wordReverse)
 };
+
 
 // Do not edit below this line
 module.exports = reverseString;
