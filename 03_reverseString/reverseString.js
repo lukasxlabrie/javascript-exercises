@@ -15,6 +15,7 @@ const reverseString = function()  { //states function needs 1 arguement in this 
     console.log (wordReverse)
 };
 
+reverseString ();
 
 // Do not edit below this line
 module.exports = reverseString;
