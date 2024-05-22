@@ -1,19 +1,18 @@
-const reverseString = function(input)  { //states function needs 1 arguement in this case its a string
-
-    wordReverseStorage = [] // empty array
+const reverseString = function(input) {
+    let wordReverseStorage = []; // empty array
     
-    let i = input.length -1; // starts loop at the end of array
-    while (i >= 0) { // will run while i is greater than or eqaul to 0
-        wordReverseStorage.push(inputString.charAt[i]) // will move current char to new array
-    i--;
-}
+    let i = input.length - 1; // starts loop at the end of the string
+    while (i >= 0) { // will run while i is greater than or equal to 0
+        wordReverseStorage.push(input[i]); // will move current char to new array
+        i--;
+    }
 
-    let wordReverse = wordReverseStorage.join (''); // combines elements in array and removes ,
-    console.log(wordReverse); //used to test function
-    return wordReverse; //used to save output for further use
+    let wordReverse = wordReverseStorage.join(''); // combines elements in array and removes commas
+    return wordReverse; // return the reversed string
 };
 
-reverseString ();
+// Call the function with an example input to test
+reverseString('hello');
 
 // Do not edit below this line
 module.exports = reverseString;
