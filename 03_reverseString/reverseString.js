@@ -8,7 +8,7 @@ const reverseString = function(input)  { //states function needs 1 arguement in 
     i--;
 }
 
-    let wordReverse = wordReverseStorage.join (" "); // combines elements in array and removes ,
+    let wordReverse = wordReverseStorage.join (''); // combines elements in array and removes ,
     console.log(wordReverse);
     return wordReverse;
 };
