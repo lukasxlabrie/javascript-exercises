@@ -1,7 +1,7 @@
-const reverseString = function()  { //states function needs 1 arguement in this case its word
+const reverseString = function(inputstring)  { //states function needs 1 arguement in this case its a string
 
     wordStorage = []; //empty array
-    wordStorage.push() // takes string and puts it into the array
+    wordStorage.push(inputstring) // takes string and puts it into the array
 
     wordReverseStorage = [] // empty array
     
