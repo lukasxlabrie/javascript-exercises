@@ -4,11 +4,11 @@ const reverseString = function(inputString)  { //states function needs 1 argueme
     
     let i = inputString.length -1; // starts loop at the end if array
     while (i >= 0) { // will run while i is greater than or eqaul to 0
-        wordReverseStorage.push([i]) // will move current char to new array
+        wordReverseStorage.push(inputString.charAt[i]) // will move current char to new array
     i--
     }
 
-    let wordReverse = wordReverseStorage.join (" "); // combines elementd in array and removes ,
+    let wordReverse = wordReverseStorage.join (" "); // combines elements in array and removes ,
     console.log (wordReverse)
 };
 
