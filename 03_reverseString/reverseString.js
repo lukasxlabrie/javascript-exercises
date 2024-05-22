@@ -1,5 +1,6 @@
 const reverseString = function(inputString)  { //states function needs 1 arguement in this case its a string
 
+    let word = inputString
     wordReverseStorage = [] // empty array
     
     let i = inputString.length -1; // starts loop at the end if array
