@@ -1,4 +1,4 @@
-const reverseString = function(input = string)  { //states function needs 1 arguement in this case its a string
+const reverseString = function(input)  { //states function needs 1 arguement in this case its a string
 
     let word = input
     wordReverseStorage = [] // empty array
