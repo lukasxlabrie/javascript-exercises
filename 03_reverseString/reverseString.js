@@ -3,7 +3,7 @@ const reverseString = function(inputString)  { //states function needs 1 argueme
     wordReverseStorage = [] // empty array
     
     let i = inputString.length -1; // starts loop at the end if array
-    while (i >= 0) { // will run while i is greater than or eqaul to 0
+    while (i >= -1) { // will run while i is greater than or eqaul to 0
         wordReverseStorage.push(inputString.charAt[i]) // will move current char to new array
     i--
     }
