@@ -5,7 +5,7 @@ describe('reverseString', () => {
     expect(reverseString('hello')).toEqual('olleh');
   });
 
-  ('reverses multiple words', () => {
+  test ('reverses multiple words', () => {
     expect(reverseString('hello there')).toEqual('ereht olleh');
   });
 
