@@ -12,7 +12,7 @@ const reverseString = function(input) {
 };
 
 // Call the function with an example input to test
-reverseString('hello');
+reverseString('');
 
 // Do not edit below this line
 module.exports = reverseString;
