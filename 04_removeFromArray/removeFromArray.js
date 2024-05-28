@@ -1,4 +1,7 @@
-const removeFromArray = function([], input) {
+const removeFromArray = function(array, input) { 
+    //will use an array and user input
+    
+
 
 };
 
