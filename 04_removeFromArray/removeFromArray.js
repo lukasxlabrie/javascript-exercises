@@ -1,6 +1,9 @@
 const removeFromArray = function(array, input) { 
     //will use an array and user input
-array.pop(input) //removes input from array
+
+let i = 0
+while (i <= array.length)
+    
 console.log(array) //output array
 };
 
