@@ -1,6 +1,7 @@
 const removeFromArray = function(array, input) { 
     //will use an array and user input
-array.pop(input) //removes inout from array
+array.pop(input) //removes input from array
+console.log(array) //output array
 };
 
 removeFromArray([1,2,3,4], 3)
