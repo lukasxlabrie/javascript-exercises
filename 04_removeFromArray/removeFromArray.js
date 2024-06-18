@@ -1,8 +1,11 @@
-const removeFromArray = function(array, input) { 
+const removeFromArray = function(inputArrray, input) { 
     //will use an array and user input
-
 let i = 0
-while (i <= array.length)
+while (i <= array.length) {
+    if charAt[i] === input
+
+    else 
+}
     
 console.log(array) //output array
 };
