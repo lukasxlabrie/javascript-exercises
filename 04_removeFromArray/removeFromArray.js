@@ -4,10 +4,12 @@ let i = 0
 while (i <= array.length) {
     if charAt[i] === input
 
-    else 
+    else charAt[i] 
+    newArray = [];
 }
-    
-console.log(array) //output array
+
+
+console.log(newArray) //output array
 };
 
 removeFromArray([1,2,3,4], 3)
