@@ -2,10 +2,9 @@ const removeFromArray = function(inputArrray, input) {
     //will use an array and user input
 let i = 0
 while (i <= array.length) {
-    if charAt[i] === input
+    if inputArray[i] === input
 
-    else charAt[i] 
-    newArray = [];
+    else newArray = [];
 }
 
 
