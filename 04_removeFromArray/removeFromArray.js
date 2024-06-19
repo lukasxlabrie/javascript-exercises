@@ -5,7 +5,7 @@ newArray = [];
 
 ``
 for (let i = 0; i <= inputArray.length; i++) {
-    if (str.charAt[i] === input);
+    if (inputArray.charAt[i] === input);
         // do nothing
     else (newArray = str.charAt[i]); //add to new array
 };
