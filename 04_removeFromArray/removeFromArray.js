@@ -1,13 +1,13 @@
-const removeFromArray = function(inputArray, ...inputs) { 
+const removeFromArray = function(inputArray, input) { 
     //will use an array and user input
 
     let newArray = [];
 
-    for (let i = 0; i < inputs.length; i++) {
-      if (inputs[i] === inputArray) {
+    for (let i = 0; i < array.length; i++) {
+      if (array.length[i] === input) {
         // do nothing
       } else {
-        newArray.push(inputs[i]); // add to new array
+        newArray.push(array[i]); // add to new array
       }
     }
     
@@ -16,7 +16,7 @@ const removeFromArray = function(inputArray, ...inputs) {
 console.log(newArray) //output array
 };
 
-removeFromArray([1,2,3,4],',2',',3');
+removeFromArray([1,2,3,4],3);
 // this means use the function to remove ",2,3 " from the array [1, 2, 3, 4]
 
 // Do not edit below this line
