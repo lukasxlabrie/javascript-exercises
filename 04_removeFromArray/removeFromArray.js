@@ -5,9 +5,9 @@ newArray = [];
 
 ``
 for (let i = 0; i <= inputArray.length; i++) {
-    if (inputArray.charAt[i] === input);
+    if (inputArray[i] === input);
         // do nothing
-    else (newArray = str.charAt[i]); //add to new array
+    else (newArray = inputArray[i].push) //add to new array
 };
 
 return newArray; //saves new array
