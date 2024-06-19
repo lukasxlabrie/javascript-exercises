@@ -3,17 +3,15 @@ const removeFromArray = function(inputArray, input) {
 
     let newArray = [];
 
-    for (let i = 0; i < array.length; i++) {
+    for (let i = 0; i < inputArray.length; i++) {
       if (array.length[i] === input) {
         // do nothing
       } else {
-        newArray.push(array[i]); // add to new array
+        newArray.push(inputArray[i]); // add to new array
       }
     }
     
-    return newArray;
-
-console.log(newArray) //output array
+    return newArray;//output array
 };
 
 removeFromArray([1,2,3,4],3);
