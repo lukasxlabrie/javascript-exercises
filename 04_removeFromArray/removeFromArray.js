@@ -4,7 +4,7 @@ const removeFromArray = function(inputArray, input) {
     let newArray = [];
 
     for (let i = 0; i < inputArray.length; i++) {
-      if (inputArrayrray.length[i] === input) {
+      if (inputArray.length[i] === input) {
         // do nothing
       } else {
         newArray.push(inputArray[i]); // add to new array
