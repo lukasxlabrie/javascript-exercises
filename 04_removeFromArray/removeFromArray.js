@@ -7,7 +7,7 @@ let i = 0
 
 while (i <= array.length) {
     if charAt[i] === input
-    charAt[i].popArray
+    charAt[i]
 
     else charAt[i] = newArray;
 };
