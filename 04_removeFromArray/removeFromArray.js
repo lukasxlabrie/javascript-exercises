@@ -1,10 +1,10 @@
-const removeFromArray = function(inputArray, input) { 
+const removeFromArray = function(inputArray, ...inputs) { 
     //will use an array and user input
 
     let newArray = [];
 
     for (let i = 0; i < inputArray.length; i++) {
-      if (inputArray[i] === input) {
+      if (inputArray[i] === inputs) {
         // do nothing
       } else {
         newArray.push(inputArray[i]); // add to new array
@@ -16,8 +16,8 @@ const removeFromArray = function(inputArray, input) {
 console.log(newArray) //output array
 };
 
-removeFromArray([1,2,3,4], 3)
-// this means use the function to remove ", 3 " from the array [1, 2, 3, 4]
+removeFromArray([1,2,3,4],2,3)
+// this means use the function to remove ",2,3 " from the array [1, 2, 3, 4]
 
 // Do not edit below this line
 module.exports = removeFromArray;
@@ -34,4 +34,4 @@ module.exports = removeFromArray;
     // Else
         // Add the current element to the new array
 
-// Step 4: Return the new array
+// Step 4: Return the new array 
