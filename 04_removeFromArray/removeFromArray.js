@@ -1,4 +1,4 @@
-const removeFromArray = function(inputArrray, input) { 
+const removeFromArray = function(inputArray, input) { 
     //will use an array and user input
 
 newArray = [];
@@ -12,7 +12,7 @@ while (i <= array.length) {
     else charAt[i] = newArray;
 };
 
-
+return newArray
 console.log(newArray) //output array
 };
 
@@ -21,3 +21,11 @@ removeFromArray([1,2,3,4], 3)
 
 // Do not edit below this line
 module.exports = removeFromArray;
+
+
+/// PSEUDO CODE
+/// GET ARRAY
+/// GET INPUT
+/// COMPARE INPUT TO ARRAY
+/// IF INPUT OS FOUND IN ARRAY, REMOVE FROM ARRAY (OR IF NOT ADD TO NEW ARRAY)
+///OUTPUT NEW ARRAY
