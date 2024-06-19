@@ -3,9 +3,8 @@ const removeFromArray = function(inputArray, input) {
 
 newArray = [];
 
-let i = 0
 
-for (i <= array.length) {
+for (let i = 0; i <= array.length; i++) {
     if (charAt[i] === input)
     charAt[i]
 
