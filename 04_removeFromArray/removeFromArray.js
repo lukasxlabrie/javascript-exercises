@@ -23,9 +23,15 @@ removeFromArray([1,2,3,4], 3)
 module.exports = removeFromArray;
 
 
-/// PSEUDO CODE
-/// GET ARRAY
-/// GET INPUT
-/// COMPARE INPUT TO ARRAY
-/// IF INPUT OS FOUND IN ARRAY, REMOVE FROM ARRAY (OR IF NOT ADD TO NEW ARRAY)
-///OUTPUT NEW ARRAY
+// PSEUDO CODE
+
+// Step 1: Get the array and input value
+// Step 2: Initialize a new array to store results
+
+// Step 3: Loop through each element in the array
+    // If the current element is equal to the input value
+        // Do nothing (skip this element)
+    // Else
+        // Add the current element to the new array
+
+// Step 4: Return the new array
