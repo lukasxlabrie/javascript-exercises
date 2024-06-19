@@ -5,13 +5,12 @@ newArray = [];
 
 
 for (let i = 0; i <= array.length; i++) {
-    if (charAt[i] === input)
-    charAt[i]
-
-    else charAt[i] = newArray;
+    if (str.charAt[i] === input);
+        // do nothing
+    else (newArray = str.charAt[i]);
 };
 
-return newArray
+return newArray;
 console.log(newArray) //output array
 };
 
