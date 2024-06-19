@@ -16,7 +16,7 @@ const removeFromArray = function(inputArray, ...inputs) {
 console.log(newArray) //output array
 };
 
-removeFromArray([1,2,3,4],2,3)
+removeFromArray();
 // this means use the function to remove ",2,3 " from the array [1, 2, 3, 4]
 
 // Do not edit below this line
