@@ -1,14 +1,18 @@
 const removeFromArray = function(inputArray, input) { 
     //will use an array and user input
 
-newArray = [];
+    let newArray = [];
 
-``
-for (let i = 0; i < inputArray.length; i++) {
-    if (inputArray[i] === input);
+    for (let i = 0; i < inputArray.length; i++) {
+      if (inputArray[i] === input) {
         // do nothing
-    else (newArray = inputArray[i].push) //add to new array
-};
+      } else {
+        newArray.push(inputArray[i]); // add to new array
+      }
+    }
+    
+    return newArray;
+    
 
 return newArray; //saves new array
 console.log(newArray) //output array
