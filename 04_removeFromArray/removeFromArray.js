@@ -12,9 +12,7 @@ const removeFromArray = function(inputArray, input) {
     }
     
     return newArray;
-    
 
-return newArray; //saves new array
 console.log(newArray) //output array
 };
 
