@@ -3,14 +3,14 @@ const removeFromArray = function(inputArray, input) {
 
 newArray = [];
 
-
-for (let i = 0; i <= array.length; i++) {
+``
+for (let i = 0; i <= inputArray.length; i++) {
     if (str.charAt[i] === input);
         // do nothing
-    else (newArray = str.charAt[i]);
+    else (newArray = str.charAt[i]); //add to new array
 };
 
-return newArray;
+return newArray; //saves new array
 console.log(newArray) //output array
 };
 
