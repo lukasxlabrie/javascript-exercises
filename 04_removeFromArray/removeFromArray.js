@@ -3,11 +3,11 @@ const removeFromArray = function(inputArray, ...inputs) {
 
     let newArray = [];
 
-    for (let i = 0; i < inputArray.length; i++) {
-      if (inputArray[i] === inputs) {
+    for (let i = 0; i < inputs.length; i++) {
+      if (inputs[i] === inputArray) {
         // do nothing
       } else {
-        newArray.push(inputArray[i]); // add to new array
+        newArray.push(inputs[i]); // add to new array
       }
     }
     
