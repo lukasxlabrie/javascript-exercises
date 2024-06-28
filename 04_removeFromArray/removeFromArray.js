@@ -1,10 +1,10 @@
-const removeFromArray = function(inputArray, input) { 
+const removeFromArray = function(inputArray, ...inputs) { 
     //will use an array and user input
 
     let newArray = [];
 
     for (let i = 0; i < inputArray.length; i++) {
-      if (inputArray[i] === input) {
+        if (inputs.includes(inputArray[i])) {
         // do nothing
       } else {
         newArray.push(inputArray[i]); // add to new array
