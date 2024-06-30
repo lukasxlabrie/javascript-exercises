@@ -3,8 +3,13 @@ const numBetween = []; // empty array to be used to store numbers between 2 inpu
 for (let i = num1; i <= num2; i++){ //will run while num 2 is less than num1
     numBetween.push(i) //takes each iterration and saves it in a new array
 };
-sumTotal = numBetween + num1 + num2; // adds the array and inputs
-return sumAll; // prints the sum 
+
+let numBetweenSum = 0 // empty var to save sum of array elements to
+numBetween.forEach (function(currentValue){
+    numBetweenSum += currentValue;
+})
+sumTotal = numBetweenSum + num1 + num2; // adds the array and inputs
+return sumTotal; // prints the sum 
 };
 
 sumAll(1, 4) //test1
