@@ -8,5 +8,6 @@ sumTotal = numBetween + num1 + num2; // adds the array and inputs
 return sumAll; // prints the sum 
 };
 
+sumAll(1, 4) //test1
 // Do not edit below this line
 module.exports = sumAll;
