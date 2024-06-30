@@ -14,7 +14,11 @@ const removeFromArray = function(inputArray, ...inputs) {
     return newArray;//output array
 };
 
+removeFromArray([1, 2, 3, 4], 3); // test 1
+removeFromArray([1, 2, 3, 4], 3, 2); // test 2
+removeFromArray([1, 2, 2, 3], 2); // test 3
 removeFromArray([1, 2, 3, 4], 7, "tacos"); // test 4 
+removeFromArray([1, 2, 3, 4], 7, 2); // test 5
 
 
 // Do not edit below this line
