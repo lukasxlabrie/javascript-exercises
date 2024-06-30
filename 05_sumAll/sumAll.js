@@ -29,6 +29,7 @@ const sumAll = function(num1, num2) {
 sumAll(1, 4); // test 1, two numbers
 sumAll(1, 4000); // test 2, big numbers
 sumAll(123, 1) //test 3, big number first
+sumAll(-10, 4) // test 4, negative numbers
 
 // Do not edit below this line
 module.exports = sumAll;
