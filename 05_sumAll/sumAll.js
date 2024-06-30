@@ -19,7 +19,8 @@ const sumAll = function(num1, num2) {
     return numBetweenSum;
 };
 
-console.log(sumAll(1, 4)); // Example test: Output should be 10 (1 + 2 + 3 + 4)
+console.log(sumAll(1, 4)); // test 1, two numbers
+expect(sumAll(1, 4000)); // test 2, big numbers
 
 // Do not edit below this line
 module.exports = sumAll;
