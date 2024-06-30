@@ -1,17 +1,25 @@
-const sumAll = function(num1, num2) { // states that thi sfunction will need 2 inputs
-const numBetween = []; // empty array to be used to store numbers between 2 inputs
-for (let i = num1; i <= num2; i++){ //will run while num 2 is less than num1
-    numBetween.push(i) //takes each iterration and saves it in a new array
+const sumAll = function(num1, num2) {
+    // Empty array to store numbers between num1 and num2
+    const numBetween = [];
+
+    // Loop from num1 to num2 and push each number into numBetween array
+    for (let i = num1; i <= num2; i++) {
+        numBetween.push(i); // Takes each iteration and saves it in a new array
+    }
+
+    // Variable to save the sum of array elements
+    let numBetweenSum = 0;
+
+    // Iterate over numBetween and sum the elements
+    numBetween.forEach(function(currentValue) {
+        numBetweenSum += currentValue; // Add each element to the sum
+    });
+
+    // Return the sum of elements between num1 and num2
+    return numBetweenSum;
 };
 
-let numBetweenSum = 0 // empty var to save sum of array elements to
-numBetween.forEach (function(currentValue){
-    numBetweenSum += currentValue;
-})
-let sumTotal = numBetweenSum + num1 + num2; // adds the array and inputs
-return sumTotal; // prints the sum 
-};
+console.log(sumAll(1, 4)); // Example test: Output should be 10 (1 + 2 + 3 + 4)
 
-sumAll(1, 4) //test1
 // Do not edit below this line
 module.exports = sumAll;
