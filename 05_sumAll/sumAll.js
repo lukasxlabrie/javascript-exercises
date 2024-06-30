@@ -8,7 +8,7 @@ let numBetweenSum = 0 // empty var to save sum of array elements to
 numBetween.forEach (function(currentValue){
     numBetweenSum += currentValue;
 })
-sumTotal = numBetweenSum + num1 + num2; // adds the array and inputs
+let sumTotal = numBetweenSum + num1 + num2; // adds the array and inputs
 return sumTotal; // prints the sum 
 };
 
