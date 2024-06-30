@@ -2,9 +2,16 @@ const sumAll = function(num1, num2) {
     // Empty array to store numbers between num1 and num2
     const numBetween = [];
 
-    // Loop from num1 to num2 and push each number into numBetween array
-    for (let i = num1; i <= num2; i++) {
-        numBetween.push(i); // Takes each iteration and saves it in a new array
+    if (num1 <= num2) {
+        // Loop from num1 to num2 and push each number into numBetween array
+        for (let i = num1; i <= num2; i++) {
+            numBetween.push(i); // Takes each iteration and saves it in a new array
+        }
+    } else {
+        // Loop from num1 to num2 (in reverse order) and push each number into numBetween array
+        for (let i = num1; i >= num2; i--) {
+            numBetween.push(i); // Takes each iteration and saves it in a new array
+        }
     }
 
     // Variable to save the sum of array elements
