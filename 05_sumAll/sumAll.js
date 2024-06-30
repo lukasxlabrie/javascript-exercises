@@ -1,7 +1,7 @@
 const sumAll = function(num1, num2) { // states that thi sfunction will need 2 inputs
 const numBetween = []; // empty array to be used to store numbers between 2 inputs
 for (let i = num1; i <= num2; i++){ //will run while num 2 is less than num1
-    numBetween.push(charAt[i]) //takes each iterration and saves it in a new array
+    numBetween.push(i) //takes each iterration and saves it in a new array
 };
 sumTotal = numBetween + num1 + num2; // adds the array and inputs
 return sumAll; // prints the sum 
