@@ -1,5 +1,5 @@
 const sumAll = function(num1, num2) { // states that thi sfunction will need 2 inputs
-numBetween = []; // empty array to be used to store numbers between 2 inputs
+const numBetween = []; // empty array to be used to store numbers between 2 inputs
 let i = 0; // to start iterrations
 while (num2 < num1, i++){ //will run while num 2 is less than num1
     numBetween.push(charAt[i]) //takes each iterration and saves it in a new array
