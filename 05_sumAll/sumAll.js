@@ -8,7 +8,7 @@ const sumAll = function(num1, num2) {
     }
 
     // Check for Negative numbers
-    if (num1 || num2 > 0){
+    if (num1 || num2 < 0){
         return "ERROR";
     }
 
