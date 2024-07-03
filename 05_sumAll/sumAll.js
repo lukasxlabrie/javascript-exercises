@@ -2,6 +2,16 @@ const sumAll = function(num1, num2) {
     // Empty array to store numbers between num1 and num2
     const numBetween = [];
 
+    // Check for NaN
+    if (isNaN(num1) || isNaN(num2)) {
+        return "ERROR";
+    }
+
+    // Check for Negative numbers
+    if (num1 || num2 > 0){
+        return "ERROR";
+    }
+
     if (num1 <= num2) {
         // Loop from num1 to num2 and push each number into numBetween array
         for (let i = num1; i <= num2; i++) {
