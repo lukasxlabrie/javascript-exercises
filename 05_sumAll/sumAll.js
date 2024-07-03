@@ -2,8 +2,7 @@ const sumAll = function(num1, num2) {
     // Empty array to store numbers between num1 and num2
     const numBetween = [];
 
-    // Check for NaN
-    if (isNaN(num1) || isNaN(num2) || isString(num1) || isString(num2)) {
+    if (typeof num1 !== 'number' || typeof num2 !== 'number' || isNaN(num1) || isNaN(num2)) {
         return "ERROR";
     }
 
